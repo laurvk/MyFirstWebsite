@@ -1,0 +1,100 @@
+#banner{
+	width: 100%;
+	position: relative;
+}
+
+#logo{
+	width: 40%;
+	position: absolute;
+}
+
+#menu{
+	width: 6%;
+	position: absolute;
+}
+
+#signin{
+	width: 5%;
+	position: absolute;
+}
+
+#logo, #topBanner > div, h1, #topBanner > h2{
+	position:  absolute;
+}
+
+#logo{
+	transform: translate(50%, -5%);
+}
+
+#topBanner > div{
+	transform: translate(42%, 60%);
+}
+
+#menu{
+	transform: translate(0, -20%);
+}
+
+#topBanner > h2 {
+	transform: translate(35%, 1000%);
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+#cards {
+	display: flex;
+}
+
+h1{ 
+transform: translate(25%, 150%) 
+}
+
+body{
+	font-family: 'Parisienne', cursive;
+	text-align: center;
+}
+
+h1{
+	font-size: 500%;
+	position: absolute;
+}
+
+h2{
+	font-size: 400%;
+	position: absolute;
+	padding:  20px;
+	background-color: green;
+}
+
+p{
+	font-size: 150%;
+	color: #30DFB4;
+}
+
+a{
+	text-decoration: none;
+}
+
+.activities{
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+	border-radius: 100%;
+}
+
+li {
+	list-style-type: none;
+	padding: 30px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topBanner{
+	display: flex;
+}
+
+.bannerthings{
+	position: absolute;
